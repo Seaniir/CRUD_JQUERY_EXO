@@ -1,0 +1,25 @@
+#container{
+    float: right;
+    text-align:center;
+    max-width:450px;
+    margin:0 auto;
+    position: relative;
+    top: 50%;
+    transform: translateY(8%);
+}
+.block{
+    width:150px;
+    height:150px;
+    margin:10px;
+    display:inline-block;
+    background:#00CC99;
+}
+
+.bigImage{
+    width: 1260px;
+    height: 712px;
+    position: relative;
+    left: 10%;
+    top: 50%;
+    transform: translateY(20%);
+}
