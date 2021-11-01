@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form action="#" method="post" onsubmit="return validateMyForm();" id="form">
+            <h4>Get in touch</h4>
+            <label class="labelStyle" for="pseudo">Title * :</label>
+            <input type="radio" name="pseudo" id="pseudo" value="Mr" />
+            <label for="Mr">Mr.</label>
+            <input type="radio" name="pseudo" id="pseudo" value="Miss" />
+            <label for="Miss">Miss.</label>      
+            <div>
+                <label class="labelStyle" for="firstName">FirstName * :</label>
+                <input id="firstName" class="inputStyle" type="text" name="firstName" id="lettersOnly" required/>
+            </div>
+            <div>
+                <label class="labelStyle" for="Lastname">Lastname * :</label>
+                <input class="inputStyle" type="text" name="Lastname" id="lettersOnly" />
+            </div>
+            <div>
+                <label class="labelStyle" for="Email">Email * :</label>
+                <input class="inputStyle" type="text" name="Email" id="emailOnly" />
+            </div>
+            <div>
+                <label class="labelStyle" for="Tel">Tel * :</label>
+                <input class="inputStyle" type="text" name="Tel" id="numbersOnly" />
+            </div>
+            <div>
+                <label class="labelStyle" for="pass">Message :</label>
+                <textarea id="area" class="inputStyle" name="area" id="area" cols="30" rows="5"  maxlength="200"></textarea>
+                <span id="areaCal"></span>
+            </div>
+            <br>
+            <div class="labelStyle">
+                <label class="labelStyle" for="pseudo">Terms and Conditions</label>
+            </div>
+            <div class="labelStyleCheckbox">
+                <input type="checkbox" name="Agree" id="checkBox" value="Agree" required/>
+                <label for="Agree">Agree *</label>
+                <br>
+                <input type="checkbox" name="Read" id="checkBox" value="Read" required/>
+                <label for="Read">Read *</label>
+            </div>
+            <p>* : Required fields</p>
+            <input class="submit" type="submit" name="submit" id="submit" value="SEND"/>
+      </form>
+    <script src="script.js"></script>
+</body>
+</html>

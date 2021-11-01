@@ -1,0 +1,49 @@
+.labelStyle{
+    display: inline-block;
+    text-align: right;
+    vertical-align: top;
+    width: 90px;
+    margin-bottom: 20px;
+}
+
+.labelStyleCheckbox{
+    display: inline-block;
+    margin-left: 10px;
+    vertical-align: top;
+    width: 90px;
+}
+
+.inputStyle{
+    width: 250px;
+    border-radius: 10px;
+}
+
+h4{
+    margin: 10px;
+    margin-left: 100px;
+    text-decoration: underline;
+}
+
+span{
+    font-size: 12px;
+    margin-left: 95px;
+    display: block;
+}
+
+form{
+    background: rgb(54,33,106);
+    background: linear-gradient(0deg, rgba(54,33,106,1) 0%, rgba(8,2,23,1) 100%);
+    color: white;
+    padding: 20px;
+    display: inline-block;
+    border: solid 1px;
+    border-radius: 20px;
+}
+
+p{
+    text-align: right;
+}
+
+.submit{
+    float: right;
+}
