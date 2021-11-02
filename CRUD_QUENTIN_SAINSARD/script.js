@@ -55,5 +55,7 @@ function updateUser(user) {
 }
 
 function deleteUser(user) {
-    $(user.parentNode).remove();
+    var answer = confirm("Êtes vous sûr ?");
+    if(answer)
+        $(user.parentNode).remove();
 }
